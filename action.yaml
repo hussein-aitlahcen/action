@@ -1,0 +1,9 @@
+name: Simple action
+
+runs:
+  using: composite
+  steps:
+    - name: Execute
+      shell: bash
+      run: |
+        echo "My World"
